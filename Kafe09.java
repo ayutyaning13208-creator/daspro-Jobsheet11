@@ -33,9 +33,9 @@ public class Kafe09 {
         System.out.print("Masukkan jumlah item yang ingin dipesan: ");
         int banyakItem = sc.nextInt();
 
-        int totalBayar = hitungTotalHarga09(pilihanMenu, banyakItem);
+        hitungTotalHarga09(pilihanMenu, banyakItem);
 
-        System.out.println("Total harga untuk pesanan Anda: Rp" + totalBayar);
+        System.out.println("Proses hitungan selesai");
 
         sc.close();
     }
