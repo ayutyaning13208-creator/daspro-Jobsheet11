@@ -10,13 +10,9 @@ public class Kafe09 {
         System.out.println("==============================");
         System.out.println("Silahkan pilih menu yang Anda inginkan.");
     }
-    public static int jumlahMenu() {
-        return 6;
-    }
-
     public static void main(String[] args) {
         Menu();
-        int n = jumlahMenu();
-        System.out.println("Jumlah menu yang tersedia: " + n);
+        Menu();
+        Menu();
     }
 }
