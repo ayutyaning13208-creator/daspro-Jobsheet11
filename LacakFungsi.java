@@ -6,7 +6,7 @@ public class LacakFungsi {
     static int tambah(int a, int b) {
         return a + b;
     }
-    static voi cetak(int n) {
+    static void cetak(int n) {
         for (int i = n; i > 0; i -= 2) {
             System.out.print(i + " ");
         }
